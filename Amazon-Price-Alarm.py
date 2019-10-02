@@ -1,3 +1,8 @@
+"""
+Author: Michele Corlito
+Amazon Price Alarm
+Automatically sends you an e-Mail when the price of a selected product drops.
+"""
 from bs4 import BeautifulSoup
 import smtplib
 import time
